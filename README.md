@@ -1,72 +1,30 @@
-# NeetCode Solutions — @MUKESH-VIJAYAKUMAR
+# NeetCode Python Solutions
 
-> Synced automatically from [NeetCode.io](https://neetcode.io) · Repository: `neetcode-submissions`
+My Python solutions to [NeetCode](https://neetcode.io) problems for data structures, algorithms, and coding interview practice.
 
----
+## Solution index
 
-## What is this?
+| Topic | Problems |
+| --- | --- |
+| [Arrays & Hashing](solutions/arrays-and-hashing/) | [Anagram Groups](solutions/arrays-and-hashing/anagram_groups.py), [Is Anagram](solutions/arrays-and-hashing/is_anagram.py), [Longest Consecutive Sequence](solutions/arrays-and-hashing/longest_consecutive_sequence.py), [Two Integer Sum](solutions/arrays-and-hashing/two_integer_sum.py), [Valid Sudoku](solutions/arrays-and-hashing/valid_sudoku.py) |
+| [Backtracking](solutions/backtracking/) | [Combination Target Sum](solutions/backtracking/combination_target_sum.py), [Combination Target Sum II](solutions/backtracking/combination_target_sum_ii.py), [N-Queens](solutions/backtracking/n_queens.py), [N-Queens II](solutions/backtracking/n_queens_ii.py), [Palindrome Partitioning](solutions/backtracking/palindrome_partitioning.py), [Permutations](solutions/backtracking/permutations.py), [Subsets](solutions/backtracking/subsets.py), [Subsets II](solutions/backtracking/subsets_ii.py) |
+| [Dynamic Programming](solutions/dynamic-programming/) | [Buy and Sell Crypto](solutions/dynamic-programming/buy_and_sell_crypto.py) |
+| [Graphs](solutions/graphs/) | [Word Ladder](solutions/graphs/word_ladder.py) |
+| [Greedy](solutions/greedy/) | [Candy](solutions/greedy/candy.py) |
+| [Linked Lists](solutions/linked-lists/) | [Merge K Sorted Linked Lists](solutions/linked-lists/merge_k_sorted_linked_lists.py), [Merge Two Sorted Linked Lists](solutions/linked-lists/merge_two_sorted_linked_lists.py), [Remove Node from End of Linked List](solutions/linked-lists/remove_node_from_end_of_linked_list.py), [Reverse Nodes in K-Group](solutions/linked-lists/reverse_nodes_in_k_group.py) |
+| [Math](solutions/math/) | [Pascal’s Triangle](solutions/math/pascals_triangle.py) |
+| [Prefix & Suffix Arrays](solutions/prefix-and-suffix-arrays/) | [Trapping Rain Water](solutions/prefix-and-suffix-arrays/trapping_rain_water.py) |
+| [Sliding Window](solutions/sliding-window/) | [Longest Substring Without Duplicates](solutions/sliding-window/longest_substring_without_duplicates.py), [Minimum Window with Characters](solutions/sliding-window/minimum_window_with_characters.py), [Sliding Window Maximum](solutions/sliding-window/sliding_window_maximum.py) |
+| [Stacks](solutions/stacks/) | [Largest Rectangle in Histogram](solutions/stacks/largest_rectangle_in_histogram.py), [Validate Parentheses](solutions/stacks/validate_parentheses.py) |
+| [Strings](solutions/strings/) | [Length of Last Word](solutions/strings/length_of_last_word.py) |
+| [Trees](solutions/trees/) | [Binary Tree from Preorder and Inorder Traversal](solutions/trees/binary_tree_from_preorder_and_inorder_traversal.py), [Lowest Common Ancestor in a Binary Search Tree](solutions/trees/lowest_common_ancestor_in_binary_search_tree.py), [Same Binary Tree](solutions/trees/same_binary_tree.py) |
+| [Tries](solutions/tries/) | [Search for Word II](solutions/tries/search_for_word_ii.py) |
+| [Two Pointers](solutions/two-pointers/) | [Is Palindrome](solutions/two-pointers/is_palindrome.py), [Max Water Container](solutions/two-pointers/max_water_container.py), [Three Integer Sum](solutions/two-pointers/three_integer_sum.py) |
 
-[NeetCode.io](https://neetcode.io) is a coding interview preparation platform featuring curated problems, video solutions, and an in-browser code editor. This repository is automatically populated with your accepted (or all) solutions using the **GitHub Sync** feature.
+## Using the solutions
 
----
+Each file contains one problem submission. Open the matching problem on NeetCode, select Python, and use the submission in its editor. Some files rely on imports or judge-provided types such as `ListNode` and `TreeNode`.
 
-## How GitHub Sync works
+## NeetCode GitHub Sync
 
-1. **Connect your GitHub account** on [neetcode.io/profile/github](https://neetcode.io/profile/github).
-2. **Auto-commit** — every time you submit a solution on NeetCode, it is pushed here automatically (configurable by status).
-3. **Bulk Sync** — push all your past solutions at once from the GitHub settings page.
-4. **Manual sync** — from the submission history panel on any problem page, sync or remove individual submissions.
-
----
-
-## Repository structure
-
-Solutions are organized by topic folder, then problem ID. Each submission is stored as a separate file:
-
-```
-<topic-folder>/
-  <problem-id>/
-    submission-0.<ext>   ← first submission
-    submission-1.<ext>   ← second submission
-    ...
-```
-
-**Example:**
-```
-Data Structures & Algorithms/two-integer-sum/submission-0.py
-Data Structures & Algorithms/binary-search/submission-0.ts
-Python For Beginners/python-hello-world/submission-0.py
-```
-
----
-
-## Supported languages
-
-| Language | Extension |
-|---|---|
-| Python | `.py` |
-| JavaScript | `.js` |
-| TypeScript | `.ts` |
-| Java | `.java` |
-| C++ | `.cpp` |
-| C# | `.cs` |
-| Go | `.go` |
-| Rust | `.rs` |
-| Kotlin | `.kt` |
-| Swift | `.swift` |
-| SQL | `.sql` |
-
----
-
-## Settings
-
-Manage your sync preferences at [neetcode.io/profile/github](https://neetcode.io/profile/github):
-
-- **Auto-commit toggle** — enable or disable automatic commits on submission
-- **Status filter** — sync all submissions or accepted only
-- **Rename repository** — rename this repo or start fresh with a new one
-- **Bulk Sync** — push all past solutions at once (rate-limited)
-
----
-
-*Generated by [NeetCode GitHub Integration](https://neetcode.io)*
+The files in `solutions/` are organized by topic after export. If GitHub Sync is enabled, new submissions may appear under `Data Structures & Algorithms/<problem>/submission-*.py`. Check the connected repository and your sync preferences in [NeetCode’s GitHub settings](https://neetcode.io/profile/github).
